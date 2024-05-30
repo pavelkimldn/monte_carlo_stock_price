@@ -6,7 +6,7 @@ The purpose of this project is to simulate future stock prices using the Monte C
 
 **Method**:
 
-The method begins with data collection, where historical stock price data is fetched using the `yfinance` library. In this example, the stock used is JPMorgan Chase & Co. (`JPM`), but the method can be applied to any stock by changing the ticker symbol. The Monte Carlo simulation involves calculating daily returns from the historical stock prices. From these returns, the mean return, variance, drift, and standard deviation are computed. Multiple simulations (e.g., 20 in this example) are then performed to generate a distribution of possible future prices. Each simulation represents a potential future price path over a specified number of trading days, typically 252, representing one trading year.
+The method begins with data collection, where historical stock price data is fetched using the 'yfinance' library. In this example, the stock used is JPMorgan Chase & Co. (JPM), but the method can be applied to any stock by changing the ticker symbol. The Monte Carlo simulation involves calculating daily returns from the historical stock prices. From these returns, the mean return, variance, drift, and standard deviation are computed. Multiple simulations (e.g., 20 in this example) are then performed to generate a distribution of possible future prices. Each simulation represents a potential future price path over a specified number of trading days, typically 252, representing one trading year.
 
 **Visualizations**:
 
