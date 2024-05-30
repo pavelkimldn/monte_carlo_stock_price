@@ -1,4 +1,4 @@
-###Monte Carlo Simulation for Stock Price Prediction
+### Project Description: Monte Carlo Simulation for Stock Price Prediction
 
 **Purpose**:
 
@@ -15,3 +15,5 @@ The project includes several visualizations to effectively communicate the resul
 The final price distribution is shown using a histogram, which displays the distribution of final stock prices after all simulations, helping to understand the frequency and spread of the predicted prices. 
 
 Additionally, a confidence interval plot is provided, showing the mean stock price with confidence intervals (1 and 2 standard deviations), which helps in understanding the central tendency and variability of the simulated stock prices. These visualizations make the data more accessible and understandable, demonstrating advanced skills in data analysis and visualization.
+
+
